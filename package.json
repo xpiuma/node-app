@@ -13,6 +13,6 @@
    },
    "scripts": {
       "lighthouse:ci": "lighthouse --output-path=./lighthouse-report.html --quiet --chrome-flags='--headless' http://localhost:3000",
-      "lighthouse": "lighthouse --output-path=./lighthouse-report.html --quiet --chrome-flags='--headless' https://localhost:3000"
+      "lighthouse": "lighthouse --output-path=./lighthouse-report.html --quiet --chrome-flags='--headless' http://localhost:3000"
    }
 }
