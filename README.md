@@ -1,2 +1,2 @@
 # node-app
-Test node-app ci
+Test node-app ci - test
