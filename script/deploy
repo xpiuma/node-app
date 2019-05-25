@@ -1,5 +1,6 @@
 #!/bin/sh
- cd ~/progetti/node-app
+ cd /
+ cd home/davide/progetti/node-app
  git pull
  npm install
  pm2 restart all
