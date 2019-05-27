@@ -1,8 +1,7 @@
 #!/bin/sh
- cd /
- cd home/davide/progetti/node-app
+cd /home/davide/progetti/node-app/
  git pull
- npm install
- pm2 restart all
+ npm install -production
+ pm2 start index.js
  exit
 EOF
