@@ -3,5 +3,6 @@ cd /home/davide/progetti/node-app/
  git pull
  npm install -production
  pm2 start index.js
+ pm2 restart all
  exit
 EOF
