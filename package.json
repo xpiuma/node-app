@@ -11,7 +11,7 @@
    "devDependencies": {
       "lighthouse": "^4.1.0",
       "mocha": "1.20.1",
-      "supertest": "0.13.0"
+      "supertest": "6.3.3"
    },
    "scripts": {
       "lighthouse:ci": "lighthouse --output-path=./lighthouse-report.html --quiet http://localhost:3000",
